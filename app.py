@@ -2,7 +2,6 @@ from flask import Flask
 from config_settings import Config
 from models import bcrypt,db
 from routess import routes
-
 app = Flask(__name__)
 app.config.from_object(Config)
 
